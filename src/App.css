@@ -1,0 +1,84 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.app-header {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.app-title {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0 0 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.title-icon {
+  font-size: 56px;
+}
+
+.app-subtitle {
+  font-size: 20px;
+  margin: 0;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+.app-main {
+  padding: 40px 0;
+}
+
+.results-header {
+  margin-bottom: 24px;
+}
+
+.results-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    padding: 24px 0;
+  }
+
+  .app-title {
+    font-size: 32px;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .title-icon {
+    font-size: 40px;
+  }
+
+  .app-subtitle {
+    font-size: 16px;
+  }
+
+  .app-main {
+    padding: 24px 0;
+  }
+
+  .results-header h2 {
+    font-size: 20px;
+  }
+}
