@@ -2,6 +2,8 @@
 
 A modern, responsive React application for discovering and exploring delicious recipes from around the world. Built with React 19, Vite, and modern CSS, this app provides an intuitive interface for searching, filtering, and viewing detailed recipe information.
 
+Live url: https://library-management-sigma-ten.vercel.app/
+
 ![Recipe Finder Screenshot](src/assets/recipe.jpeg)
 
 ## ✨ Features
